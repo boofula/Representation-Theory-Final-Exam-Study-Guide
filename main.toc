@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Things to Study}{1}{section.1}%
+\contentsline {section}{\numberline {2}Final Exam Review}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Theorems and Proofs of Theorems}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Important Definitions for The Final Exam}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Lecture 1: Foundations}{10}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Lecture 2: Modules and Group Algebra}{11}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Lecture 3: Reducibility and Schur}{13}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Lecture 4: Maschke and Structure}{14}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Lecture 5: Characters}{15}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Lecture 6: Orthogonality (Conceptual Only)}{16}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}Will's Answers for Homework 3}{16}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Gonzalez's Answers for Homework 3}{25}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Test 2 Review}{39}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Theorems and Proofs of Theorems}{39}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Important Definitions for Test 2}{42}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Alternative Answers For Test 2}{43}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Test 2 Solutions}{44}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Test 1 Review}{54}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Alternative Answers for Test 1}{54}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Test 1 Solutions}{55}{subsection.4.2}%
