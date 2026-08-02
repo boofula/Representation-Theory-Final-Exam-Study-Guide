@@ -1,0 +1,122 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4209,        112]
+NotebookOptionsPosition[      3715,         95]
+NotebookOutlinePosition[      4125,        111]
+CellTagsIndexPosition[      4082,        108]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"LinearOptimization", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "1.4"}], "a4"}], " ", "-", 
+    RowBox[{"1.7", "b3"}], "-", 
+    RowBox[{"1.9", "c2"}], "-", 
+    RowBox[{"1.3", "d5"}]}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"a1", "+", "b1"}], " ", "<=", " ", "50000"}], ",", " ", 
+     RowBox[{
+      RowBox[{"a2", "+", "b2", "+", "c2"}], " ", "<=", " ", 
+      RowBox[{"50000", " ", "-", "a1", "-", "b1"}]}], ",", " ", 
+     RowBox[{
+      RowBox[{"a3", "+", "b3"}], " ", "<=", " ", 
+      RowBox[{"50000", " ", "+", 
+       RowBox[{"1.4", "a1"}], " ", "-", "a1", " ", "-", "b1", " ", "-", "a2", 
+       " ", "-", "b2", " ", "-", "c2"}]}], ",", " ", 
+     RowBox[{"a4", "  ", "<=", " ", 
+      RowBox[{"50000", " ", "+", 
+       RowBox[{"1.4", "a1"}], " ", "+", " ", 
+       RowBox[{"1.4", "a2"}], " ", "+", " ", 
+       RowBox[{"1.7", "b1"}], "-", "a1", " ", "-", "b1", " ", "-", "a2", " ", 
+       "-", "b2", " ", "-", "c2", " ", "-", "a3", " ", "-", "b3"}]}], ",", 
+     " ", 
+     RowBox[{"d5", " ", "<=", 
+      RowBox[{"50000", " ", "+", 
+       RowBox[{"1.4", "a1"}], " ", "+", " ", 
+       RowBox[{"1.4", "a2"}], " ", "+", 
+       RowBox[{"1.4", "a3"}], " ", "+", " ", 
+       RowBox[{"1.7", "b1"}], " ", "+", 
+       RowBox[{"1.7", "b2"}], "-", "a1", " ", "-", "b1", " ", "-", "a2", " ", 
+       "-", "b2", " ", "-", "c2", " ", "-", "a3", " ", "-", "b3", " ", "-", 
+       "a4"}]}], " ", ",", " ", 
+     RowBox[{"a1", " ", ">=", " ", "0"}], ",", " ", 
+     RowBox[{"a2", " ", ">=", " ", "0"}], ",", " ", 
+     RowBox[{"a3", " ", ">=", "0"}], ",", " ", 
+     RowBox[{"a4", " ", ">=", "0"}], ",", " ", 
+     RowBox[{"b1", " ", ">=", " ", "0"}], ",", " ", 
+     RowBox[{"b2", " ", ">=", " ", "0"}], ",", " ", 
+     RowBox[{"b3", " ", ">=", " ", "0"}], " ", ",", " ", 
+     RowBox[{"c2", " ", ">=", " ", "0"}], ",", " ", 
+     RowBox[{"d5", " ", ">=", " ", "0"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "a1", ",", "a2", ",", "a3", ",", "a4", ",", " ", "b1", ",", " ", "b2", ",",
+      " ", "b3", ",", " ", "c2", ",", " ", "d5"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9779157637154007`*^9, 3.9779157712998676`*^9}, {
+  3.9779158223905106`*^9, 3.9779158547773457`*^9}, {3.977915887743141*^9, 
+  3.9779161729370975`*^9}, {3.977916205947912*^9, 3.9779163360539513`*^9}, {
+  3.9779163664262524`*^9, 3.9779165232122536`*^9}, {3.977916851674309*^9, 
+  3.9779168937122135`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"87fe01ca-21cc-7646-bad3-a8b29ebe83bb"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"a1", "\[Rule]", "50000.`"}], ",", 
+   RowBox[{"a2", "\[Rule]", "0.`"}], ",", 
+   RowBox[{"a3", "\[Rule]", "70000.`"}], ",", 
+   RowBox[{"a4", "\[Rule]", "0.`"}], ",", 
+   RowBox[{"b1", "\[Rule]", "0.`"}], ",", 
+   RowBox[{"b2", "\[Rule]", "0.`"}], ",", 
+   RowBox[{"b3", "\[Rule]", "0.`"}], ",", 
+   RowBox[{"c2", "\[Rule]", "0.`"}], ",", 
+   RowBox[{"d5", "\[Rule]", "98000.`"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.977916898378069*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"b6bcf890-288f-d34e-af22-ee3356f41974"]
+}, Open  ]]
+},
+WindowSize->{569.25, 624.75},
+WindowMargins->{{368.25, Automatic}, {Automatic, 135}},
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (March 14, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"97a1e7da-f659-ac49-a1d5-be46f3bc4319"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 2548, 55, 180, "Input",ExpressionUUID->"87fe01ca-21cc-7646-bad3-a8b29ebe83bb"],
+Cell[3127, 79, 572, 13, 95, "Output",ExpressionUUID->"b6bcf890-288f-d34e-af22-ee3356f41974"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
